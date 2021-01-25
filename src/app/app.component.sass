@@ -1,0 +1,26 @@
+.navHeader
+    cursor: pointer
+    outline-style: none
+    -moz-outline-style: none
+.navTextSize
+    font-size: 1.2em
+    font-weight: 500
+.navContact
+    border-width: 2px !important
+    &:focus
+        box-shadow: none !important
+.navTextColor
+    color: #adadad !important
+    -moz-transition: color .2s ease-in
+    -o-transition: color .2s ease-in
+    -webkit-transition: color .2s ease-in
+    transition: color .2s ease-in
+    &:hover
+        color: #ffffff !important
+    &.active
+        color: #ffffff !important
+.navName
+    font-size: 2em
+@media(max-width: 575px)
+    .navName
+        font-size: 1.5em
